@@ -1,0 +1,23 @@
+body{
+    background-image:url(bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+p{
+    font-size: 20px;
+    text-align: justify;
+}
+p.request{
+    text-align: end;
+    font-size: 20px;
+    background-color: mintcream;
+}
+table{
+    background-color: antiquewhite;
+    margin-left:100px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+}
+h1{
+    background-color: beige;
+}

@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <title>Request Book</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="icon" type="image/png" href="icon.png" sizes="16x16">
+    </head>
+    <body>
+        <center> 
+            <img src="head.png" height=100 width=600>
+            <h1>
+                REQUEST BOOK
+            </h1>
+            <br>
+            <form method="POST" action="/action_page.php" id="form1">
+                <table>
+                    <tr>
+                        <td>
+                        <label for="name">Your Name:</label>
+                        </td>
+                        <td><textarea id="name" name="name" cols=40 rows=1 style="resize: none;" onfocus="this.value=''">....</textarea></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="mail">Email ID:</label>
+                        </td>
+                        <td>
+                            <textarea id="mail" name="mail" cols=40 rows=1 style="resize: none;" onfocus="this.value=''">....</textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="contact">Contact no.:</label>
+                        </td>
+                        <td>
+                            <textarea id="contact" name="contact" cols=40 rows=1 style="resize: none;" onfocus="this.value=''">....</textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="title">Title:</label>
+                        </td>
+                        <td>
+                            <textarea id="title" name="title" cols=40 rows=1 style="resize: none;" onfocus="this.value=''">....</textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td valign="top">
+                            <label for="details">Describe the book:</label>
+                        </td>
+                        <td>
+                            <textarea id="details" name="details" rows="5" cols="40" onfocus="this.value=''" style="resize: vertical;">....</textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" align="center">
+                            <input type="submit" value="Submit" form="form1"><input type="reset" id="reset">
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </center>
+    </body>
+</html>
